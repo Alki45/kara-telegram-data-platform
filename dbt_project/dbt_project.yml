@@ -1,0 +1,6 @@
+name: 'kara_dbt'
+version: '1.0.0'
+profile: 'kara'
+source-paths: ['models']
+target-path: 'target'
+clean-targets: ['target', 'dbt_modules']
